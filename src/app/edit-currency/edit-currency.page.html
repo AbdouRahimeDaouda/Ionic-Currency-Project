@@ -1,0 +1,31 @@
+<ion-header>
+    <ion-toolbar color="primary">
+        <ion-title> Currency Rate</ion-title>
+    </ion-toolbar>
+</ion-header>
+
+<ion-content>
+    <ion-row>
+        <ion-col size-xs="3" offset-xs="3">
+            <ion-img style="width:150px;" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk8Qm-oQ4g5bSaxcMCfdp6CpGu_UHth5G8aA&usqp=CAU"></ion-img>
+        </ion-col>
+    </ion-row>
+    <ion-card>
+        <ion-card-header>
+            <ion-card-title>Edit Currencies</ion-card-title>
+        </ion-card-header>
+
+        <ion-card-content>
+            <ion-label>Currency 1</ion-label>
+            <ion-select disabled="true" value="USD" okText="Okay" cancelText="Dismiss">
+                <ion-select-option value="USD">USD</ion-select-option>
+            </ion-select>
+            <ion-label>Currency 2</ion-label>
+            <ion-select value="TND" okText="Okay" cancelText="Dismiss">
+                <ion-select-option value="TND">TND</ion-select-option>
+
+            </ion-select>
+        </ion-card-content>
+    </ion-card>
+
+</ion-content>

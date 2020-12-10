@@ -11,6 +11,10 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'edit-currency',
+    loadChildren: () => import('./edit-currency/edit-currency.module').then( m => m.EditCurrencyPageModule)
+  },
 ];
 
 @NgModule({
